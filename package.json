@@ -2,9 +2,11 @@
   "name": "nihilism",
   "version": "0.1.0",
   "description": "this module is meaningless",
-  "main": "whatever.js",
+  "main": "lib/whatever.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "EXIT_STATUS=0; npm -s run lint || EXIT_STATUS=$?; npm -s run tap || EXIT_STATUS=$?; exit $EXIT_STATUS",
+    "tap": "tap test/test-*.js",
+    "eslint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/TheAlphaNerd/nihilism/issues"
   },
-  "homepage": "https://github.com/TheAlphaNerd/nihilism#readme"
+  "homepage": "https://github.com/TheAlphaNerd/nihilism#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "tap": "^2.3.4"
+  }
 }
