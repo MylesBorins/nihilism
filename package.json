@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheAlphaNerd/nihilism.git"
+    "url": "git+https://github.com/MylesBorins/nihilism.git"
   },
   "keywords": [
     "nihilism",
@@ -20,9 +20,9 @@
   "author": "Myles Borins <myles.borins@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheAlphaNerd/nihilism/issues"
+    "url": "https://github.com/MylesBorins/nihilism/issues"
   },
-  "homepage": "https://github.com/TheAlphaNerd/nihilism#readme",
+  "homepage": "https://github.com/MylesBorins/nihilism#readme",
   "devDependencies": {
     "eslint": "^1.10.3",
     "tap": "^2.3.4"
